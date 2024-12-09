@@ -11,14 +11,14 @@ Public Sub Main()
 
     Call ab1_discord_initialize("<replace-with-your-client-id>")
     Call ab1_discord_presence_set("Hello!", "Goodbye!")
-    
+
     Call MsgBox("Press OK to clear")
     Call ab1_discord_presence_clear
-    
+
     Call ab1_discord_release
     Exit Sub
-    
+
 ErrorHandler:
-    Call MsgBox("Error: " & Err.Number & "(" & Err.Description & ")")
-    
+    Call MsgBox("Error: " & Err.Number & " (" & Err.Description & ")")
+
 End Sub

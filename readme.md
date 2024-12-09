@@ -1,6 +1,6 @@
 # vb6-discord-rich-presence
 
-A small wrapper written in C++ to interact with Discord's Rich Presence functionality from old languages.
+A small wrapper written in C++ to interact with Discord's Rich Presence functionality from an old language.
 
 ### Building
 
