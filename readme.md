@@ -22,9 +22,10 @@ Then compile the library:
 cmake --build build --config Release
 ```
 
-**NOTE:** It's important to use CMake's `-A Win32` flag because VB6 isn't able to use 64 bits DLLs.  \
-I also suggest generating release builds (`--config Release`) since it lowers the number of dependencies the DLL
-requires by not including debug DLLs.
+> [!NOTE]
+> It's important to use CMake's `-A Win32` flag because VB6 isn't able to use 64 bits DLLs.  \
+> I also suggest generating release builds (`--config Release`) since it lowers the number of dependencies the DLL
+> requires by not including debug DLLs.
 
 ### Testing
 
